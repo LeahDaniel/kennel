@@ -11,6 +11,16 @@ export const Kennel = () => (
             <AnimalList />
         </AnimalProvider>
 
-        <LocationList />
+        <LocationProvider>
+            <LocationList />
+        </LocationProvider>
+
+        <EmployeeProvider>
+            <EmployeeList />
+        </EmployeeProvider>
+
+        <CustomerProvider>
+            <CustomerList />
+        </CustomerProvider>
     </>
 )
